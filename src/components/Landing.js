@@ -7,13 +7,6 @@ import '../css/real_roadmap.css';
 import { useState, useEffect } from 'react';
 import Navbar from './Navbar';
 
-import Web3 from 'web3';
-import { ethers } from 'ethers';
-import WalletConnectProvider from '@walletconnect/web3-provider';
-const sukiwTokenABI = require('../abi/sukiwToken.json');
-const pancakeRouterABI = require('../abi/pancakeRouterABI.json');
-const sukiwTokenAddr= '0xF041a35049f1609e77AfB02C573739aF73eFd532';
-
 function Landing () {
     return (
       <div className="App">
